@@ -1,0 +1,11 @@
+#Default configuration
+logging:
+  level:
+    .: info
+
+spring:
+  profiles:
+    active: "dev"
+
+ignite:
+  igniteConfigurationFilename: "ignite-config-dev.xml"
